@@ -1,0 +1,28 @@
+package com.assignment.student;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class StudentDao {
+
+	public static boolean addStudentToDb(Student st) {
+		boolean status = false;
+		try {
+			
+			Connection con = ConnectionProvider.createC();
+			String Query1 = "insert into students(sname, sphone, scity)"+"value(?,?,?)";
+		PreparedStatement  pr = con.prepareStatement(Query1);
+		
+		//value set to parameter
+		pr.setString(1, st.getStudentName());
+		pr.setString(2, st.getStudentPhone());
+		pr.setString(3, st.getStudentCity());
+			
+			pr.executeUpdate();
+			status = true;
+			
+		} catch (Exception e) {
+		}
+		return status;
+	}
+}
