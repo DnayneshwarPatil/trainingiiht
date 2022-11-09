@@ -1,0 +1,22 @@
+package com.java.oops.collection;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class LikedListDemo {
+	
+	public static void main(String[] args) {
+		
+		LinkedList<String> emp = new LinkedList<>();
+		emp.add("Peter");
+		emp.add("john");
+		emp.add("sushil");
+		
+		Iterator<String> itr = emp.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+	}
+	
+
+}

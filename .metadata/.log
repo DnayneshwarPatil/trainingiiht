@@ -503,3 +503,96 @@ Caused by: java.net.SocketException: Connection reset
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 13:41:04.402
 !MESSAGE executing callback sts4.classpath.bkhgmuQD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:50:43.422
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bkhgmuQD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:50:43.423
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.bkhgmuQD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:50:43.423
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:50:43.424
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bkhgmuQD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:13.583
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:13.584
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@66f15ce5[org.springframework.tooling.boot.ls:1.13.0.201911200938(id=632)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:13.584
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.819
+!MESSAGE Boot LS startup time from start to initialized: 2234ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.860
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SICljvePisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.861
+!MESSAGE subscribing to classpath changes: sts4.classpath.SICljveP isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.861
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.862
+!MESSAGE subsribers = {sts4.classpath.SICljveP=Send Classpath Notifications(2155)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.862
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.862
+!MESSAGE project JavaTraining ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.863
+!MESSAGE project StudentManagementApp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.863
+!MESSAGE Preparing classpath changed notification JavaTraining
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.863
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.864
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.864
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SICljveP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.865
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.865
+!MESSAGE buffering callback sts4.classpath.SICljveP JavaTraining false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.865
+!MESSAGE Preparing classpath changed notification StudentManagementApp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.866
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.866
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.867
+!MESSAGE buffering callback sts4.classpath.SICljveP StudentManagementApp false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.867
+!MESSAGE executing callback sts4.classpath.SICljveP 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 17:51:15.902
+!MESSAGE executing callback sts4.classpath.SICljveP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 19:15:44.438
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SICljveP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 19:15:44.438
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SICljveP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 19:15:44.438
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 19:15:44.439
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SICljveP => OK
